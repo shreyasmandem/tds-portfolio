@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shreyas Mandem — Portfolio</title>
+  <style>
+    :root { --bg: #0f172a; --card: #1e293b; --fg: #e2e8f0; --muted: #94a3b8; --accent: #38bdf8; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; }
+    main { max-width: 860px; margin: 0 auto; padding: 48px 16px; }
+    h1 { font-size: 2.2rem; margin: 0 0 4px; }
+    .tag { color: var(--muted); margin: 0 0 24px; }
+    a { color: var(--accent); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+    .card { background: var(--card); border-radius: 10px; padding: 16px 18px; }
+    .card h3 { margin: 0 0 6px; font-size: 1.05rem; }
+    .card p { margin: 0; color: var(--muted); font-size: .95rem; }
+    footer { margin-top: 40px; color: var(--muted); font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Shreyas Mandem</h1>
+    <p class="tag">BS in Data Science, IIT Madras · Tools in Data Science (TDS) portfolio</p>
+
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card"><h3><a href="https://github.com/shreyasmandem/ResuMetric">ResuMetric</a></h3><p>Resume analysis and scoring tool.</p></div>
+      <div class="card"><h3><a href="https://github.com/shreyasmandem/PLACEIQ">PlaceIQ</a></h3><p>Placement insights and analytics.</p></div>
+      <div class="card"><h3><a href="https://github.com/shreyasmandem/MatrixDSL">MatrixDSL</a></h3><p>A small domain-specific language for matrix operations.</p></div>
+      <div class="card"><h3><a href="https://github.com/shreyasmandem/SMARTPREFETCH">SmartPrefetch</a></h3><p>Smarter prefetching experiments.</p></div>
+      <div class="card"><h3>TDS Ledger Agent</h3><p>A Cloudflare Worker that answers plain-English questions about an order ledger API.</p></div>
+      <div class="card"><h3>Live MCP Server</h3><p>A minimal Model Context Protocol server exposing a challenge-solving tool.</p></div>
+    </div>
+
+    <h2>Contact</h2>
+    <p>Email: <!--email_off-->24f3003191@ds.study.iitm.ac.in<!--/email_off--></p>
+    <p>GitHub: <a href="https://github.com/shreyasmandem">github.com/shreyasmandem</a></p>
+
+    <footer>Built for the TDS 2026 Sep GA1 assignment · Hosted on GitHub Pages</footer>
+  </main>
+</body>
+</html>
